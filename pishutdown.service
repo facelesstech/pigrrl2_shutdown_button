@@ -1,6 +1,6 @@
 [Service]
-ExecStart=/usr/bin/python /home/pi/rpi_code_jessie/pigrrl_pullup_shutdown/pishutdown.py
-WorkingDirectory=/home/pi/rpi_code_jessie/pigrrl_pullup_shutdown/
+ExecStart=/usr/bin/python /home/pi/pigrrl2_shutdown_button/pishutdown.py
+WorkingDirectory=/home/pi/pigrrl2_shutdown_button/
 Restart=always
 StandardOutput=syslog
 StandardError=syslog
